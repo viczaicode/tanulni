@@ -1,8 +1,6 @@
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
+package model;
+
 import java.util.*;
-import java.util.stream.Stream;
 
 public class Termek {
 
@@ -136,7 +134,7 @@ public class Termek {
 
     @Override
     public String toString() {
-        return "Termek{" +
+        return "model.Termek{" +
                 "kod='" + kod + '\'' +
                 ", ar=" + ar +
                 ", leiras='" + leiras + '\'' +
